@@ -1,0 +1,46 @@
+[user]
+    email = fenglxw@gmail.com
+    name = frank
+[core]
+	editor = nvim
+	quotePath = false
+	commitGraph = true
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[interactive]
+    diffFilter = delta --color-only --features=interactive
+
+[delta]
+    features = decorations
+    side-by-side = true
+
+[delta "interactive"]
+    keep-plus-minus-markers = false
+
+[delta "decorations"]
+    commit-decoration-style = blue ol
+    commit-style = raw
+    file-style = omit
+    hunk-header-decoration-style = blue box
+    hunk-header-file-style = red
+    hunk-header-line-number-style = "#067a00"
+    hunk-header-style = file line-number syntax
+
+[http]
+	proxy = http://172.31.144.1:7890
+[https]
+	proxy = https://172.31.144.1:7890
+[receive]
+	advertisePushOptions = true
+	procReceiveRefs = refs/for
+[gc]
+	writeCommitGraph = true

@@ -1,0 +1,20 @@
+{
+  "woredpress title": {
+    "prefix": "wd",
+    "body": [
+      "---",
+      "title: ${1}",
+      "slug: ${2}",
+      "tag:",
+      "    - ${3}",
+      "    - ${4}",
+      "category:",
+      "    - ${5}",
+      "status: publish",
+      "thumbnail: images/${6}",
+      "---",
+      "${0}"
+    ],
+    "description": "Add wordpress title"
+  }
+}

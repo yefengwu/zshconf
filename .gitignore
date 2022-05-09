@@ -1,0 +1,16 @@
+# basic config 
+/*
+!README.md
+!.gitignore
+!.zshrc
+!.aliases
+!.gitconfig
+
+# some other config 
+!.config
+.config/*
+!.config/bindkey.zsh
+!.config/starship.toml
+!.config/scripts
+!.config/mirror
+!.config/lvim
